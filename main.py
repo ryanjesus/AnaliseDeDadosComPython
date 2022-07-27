@@ -46,7 +46,7 @@ print(tabela["Churn"].value_counts(normalize=True).map("{:.1%}".format))
 
 # Passo 5: Descobrir os motivos do cancelamento
 
-coluna = "Aposentado"
+# coluna = "Aposentado"
 
 for coluna in tabela.columns:
 
